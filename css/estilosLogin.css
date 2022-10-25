@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+* {
+    margin:  0;
+    padding: 0;
+  }
+.bd-navbar {
+    min-height: 4rem;
+    background-color: #42138d;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 5%), inset 0 -1px 0 rgb(0 0 0 / 10%);
+}
+
+.container-fluid .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    padding-right: 30px;
+    font-size: 26px;
+
+}
+.navbar a{
+    color: #ffffff;
+    font-size: 15px;
+
+}
+
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+::-webkit-scrollbar-track{
+    background: #dddddddd;
+}
+::-webkit-scrollbar-thumb{
+    background: #563d7c(2, 0, 36, 1);
+}
+
+.home img {
+    transition: 1.4s ease;
+}
+
+.home img:hover {
+    transform: translateY(-12px);
+
+}
+.myform-area .form-area {
+    position: relative;
+    background: #ffffff;
+    height: 400px;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 40px 0 #e1e1e1;
+}
+
+.myform-area .form-area .form-content,
+.myform-area .form-area .form-input {
+    position: relative;
+    width: 50%;
+    height: 38%;
+    box-sizing: border-box;
+}
+
+.myform-area .form-area .form-content {
+    width: 100%;
+    padding: 40px 30px;
+}
+
+.myform-area .form-area .form-content h2 {
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.myform-area .form-area .form-content p {
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    font-size: 14px;
+    text-align: center;
+}
+
+.myform-area .form-area .form-content ul {
+    margin-top: 50px;
+
+}
+
+.myform-area .form-area .form-content ul {
+    margin-top: 50px;
+
+}
+
+.myform-area .form-area .form-content ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.myform-area .form-area .form-content a i {
+    margin-right: 10px;
+
+}
+
+.myform-area .form-area .form-input {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 40px 0 #e1e1e1;
+}
+
+.myform-area .form-area .form-input {
+    width: 100%;
+    height: 500px;
+    background: #fff;
+    padding: 40px 30px;
+
+}
+
+.myform-area .form-area .form-input h2 {
+    margin-bottom: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+.myform-area .form-area .form-input input {
+    position: relative;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.myform-area .form-area .form-input textarea {
+    height: 120px;
+    padding: 20px 0;
+}
+
+.myform-area .form-area .form-input input,
+.myform-area .form-area .form-input textarea {
+    text-transform: capitalize;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #e1e1e1;
+    color: #42138d;
+}
+
+.myform-area .form-area .form-input form .form-group {
+    position: relative;
+}
+
+.myform-area .form-area .form-input form .form-group label {
+    position: absolute;
+    text-transform: capitalize;
+    top: 20px;
+    left: 0;
+    pointer-events: none;
+    font-size: 14px;
+    color: #535353;
+    margin-bottom: 0;
+    transition: all .6s;
+}
+
+.myform-area .form-area .myform-button {
+    margin-top: 30px;
+    margin-bottom: 4rem;
+}
+
+.myform-area .form-area .myform-button .myform-btn {
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    background: #42138d;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.myform-area .form-area .myform-button .myform-btn:hover {
+    background: #563d7c;
+
+}
+.registrar__texto {
+    text-align: center;
+}
+
+
+.questPass p{
+    cursor: pointer;
+    position: absolute;
+    bottom: 1;
+    right:1;
+    text-decoration: underline;
+}
+
+ /* Error usuario mobile*/
+
+ .error {
+    background-color: rgb(187, 5, 5);
+    width: 100%;
+    height: 30px;
+    opacity: 1;
+    border-radius: 5px;
+    margin: auto;
+}
+.ok{
+    background-color: rgb(60, 189, 0);
+    width: 100%;
+    height: 30px;
+    opacity: 1;
+    border-radius: 5px;
+    margin: auto;
+    }
+
+.error h2,.ok h2 {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 5px;
+}
+/* TABLET */
+@media (min-width:768px) {
+    .myform-area {
+        overflow: hidden;
+        padding: 60px 0;
+        background: #f4fffe;
+        position: relative;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        box-shadow: 3px 4px 4px rgb(51, 51, 51);
+        width: 100%;
+        margin: 2rem auto;
+    }
+    .myform-area .form-area {
+        height: 90%;
+    }
+
+
+    .myform-area .form-area .form-content,
+    .myform-area .form-area .form-input {
+        position: relative;
+        width: 50%;
+        height: 90%;
+        float: left;
+        box-sizing: border-box;
+    }
+
+
+
+    .myform-area .form-area .form-content h2 {
+        text-align: start;
+        color: rgb(43, 43, 43);
+        font-size: 26px;
+        font-family: sans-serif;
+        font-weight: 600;
+    }
+
+    .myform-area .form-area .form-content p {
+        text-align: start;
+        color: rgb(43, 43, 43);
+        margin-top: 3rem;
+        font-size: 15px;
+    }
+
+    .myform-area .form-area .form-content ul {
+        margin-top: 50px;
+
+    }
+
+    .myform-area .form-area .form-input input:focus,
+    .myform-area .form-area .form-input textarea:focus,
+    .myform-area .form-area .form-input input:valid,
+    .myform-area .form-area .form-input textarea:valid {
+        border-bottom: 2px solid rgba(103, 58, 183);
+    }
+
+    .myform-area .form-area .form-text {
+        margin-top: 30px;
+    }
+
+    .myform-area .form-area .form-text span a {
+        color: rgba(103, 58, 183);
+        
+    }
+
+    .myform-area .form-area .myform-button {
+        margin-top: 50px;
+        
+    }
+    .myform-area .form-area .myform-button a{
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+
+    .myform-area .form-area .myform-button .myform-btn:hover {
+        background: #000266;
+
+    }
+
+    .form-input {
+        margin: 0rem auto;
+    }
+
+    .registrar__texto {
+        margin: 1rem 0rem 0.5rem 0rem;
+        color: #064380;
+        transition: 1s;
+        text-decoration: none;
+        padding-bottom: 20px;
+    }
+
+    .registrar__texto h5 {
+        text-transform: none;
+    }
+
+    .registrar__texto:hover {
+        color: #021222;
+        cursor: pointer;
+
+    }
+
+
+    .home img {
+        transition: 1.4s ease;
+    }
+
+    .home img:hover {
+        transform: translateY(-12px);
+
+    }
+
+    .questPass a {
+       color: #000000;
+    }
+
+    /* Error usuario mobile*/
+
+    .error {
+        background-color: rgb(187, 5, 5);
+        width: 30%;
+        height: 30px;
+        opacity: 1;
+        border-radius: 5px;
+        margin: auto;
+    }
+    .ok{
+        background-color: rgb(53, 226, 19);
+        width: 30%;
+        height: 30px;
+        opacity: 1;
+        border-radius: 5px;
+        margin: auto;
+        }
+
+    .error h2,.ok h2 {
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 0.5rem;
+    }
+
+    @media (min-width:1024px) {
+
+        .myform-area .form-area .form-content p {
+            
+            font-size: 15px;
+            max-width: 95%;
+        }
+        .home img{
+            width: 50px;
+        }
+    }
+/* Footer */
+.footer-section{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 6rem;
+    
+}
+.footer-section p{
+    font-size: 13px;
+
+}
+
+.footer-section .texto__footer__secundario{
+    margin-top: 0.9rem;
+    opacity: 0.9;
+}
+
+
+
+}
